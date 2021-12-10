@@ -1,0 +1,41 @@
+C:\Users\jakob.riedel\source\repos\Quizersteller\bin\Debug\net5.0-windows\Quizersteller.exe
+C:\Users\jakob.riedel\source\repos\Quizersteller\bin\Debug\net5.0-windows\Quizersteller.deps.json
+C:\Users\jakob.riedel\source\repos\Quizersteller\bin\Debug\net5.0-windows\Quizersteller.runtimeconfig.json
+C:\Users\jakob.riedel\source\repos\Quizersteller\bin\Debug\net5.0-windows\Quizersteller.runtimeconfig.dev.json
+C:\Users\jakob.riedel\source\repos\Quizersteller\bin\Debug\net5.0-windows\Quizersteller.dll
+C:\Users\jakob.riedel\source\repos\Quizersteller\bin\Debug\net5.0-windows\ref\Quizersteller.dll
+C:\Users\jakob.riedel\source\repos\Quizersteller\bin\Debug\net5.0-windows\Quizersteller.pdb
+C:\Users\jakob.riedel\source\repos\Quizersteller\bin\Debug\net5.0-windows\MaterialSkin.dll
+C:\Users\jakob.riedel\source\repos\Quizersteller\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\jakob.riedel\source\repos\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.Form1.resources
+C:\Users\jakob.riedel\source\repos\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.csproj.GenerateResource.cache
+C:\Users\jakob.riedel\source\repos\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakob.riedel\source\repos\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.AssemblyInfoInputs.cache
+C:\Users\jakob.riedel\source\repos\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.AssemblyInfo.cs
+C:\Users\jakob.riedel\source\repos\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.csproj.CoreCompileInputs.cache
+C:\Users\jakob.riedel\source\repos\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.csproj.CopyComplete
+C:\Users\jakob.riedel\source\repos\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.dll
+C:\Users\jakob.riedel\source\repos\Quizersteller\obj\Debug\net5.0-windows\ref\Quizersteller.dll
+C:\Users\jakob.riedel\source\repos\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.pdb
+C:\Users\jakob.riedel\source\repos\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.genruntimeconfig.cache
+C:\Users\jakob.riedel\source\repos\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.csproj.AssemblyReference.cache
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\bin\Debug\net5.0-windows\Quizersteller.exe
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\bin\Debug\net5.0-windows\Quizersteller.deps.json
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\bin\Debug\net5.0-windows\Quizersteller.runtimeconfig.json
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\bin\Debug\net5.0-windows\Quizersteller.runtimeconfig.dev.json
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\bin\Debug\net5.0-windows\Quizersteller.dll
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\bin\Debug\net5.0-windows\ref\Quizersteller.dll
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\bin\Debug\net5.0-windows\Quizersteller.pdb
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\bin\Debug\net5.0-windows\MaterialSkin.dll
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.csproj.AssemblyReference.cache
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.Form1.resources
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.csproj.GenerateResource.cache
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.AssemblyInfoInputs.cache
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.AssemblyInfo.cs
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.csproj.CoreCompileInputs.cache
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.dll
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\obj\Debug\net5.0-windows\ref\Quizersteller.dll
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.pdb
+C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\obj\Debug\net5.0-windows\Quizersteller.genruntimeconfig.cache

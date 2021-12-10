@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "mDVHWUB3PsA+PqI/EQoZoSoM8c3n9Pbwq2GC3NaszJBk5gn3deCAtc9/m3OvVJU5hr+TIcLca25YyTkz+o9S9A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\Quizersteller-mit-MaterialSkin\\Quizersteller\\Quizersteller.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\IVO.WOTKE\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512",
+    "C:\\Users\\IVO.WOTKE\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem beim Lesen der Cachedatei \"C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\Quizersteller-mit-MaterialSkin\\Quizersteller\\obj\\project.nuget.cache\": Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+}
