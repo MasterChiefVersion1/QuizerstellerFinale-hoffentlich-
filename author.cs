@@ -7,7 +7,7 @@ namespace Quizersteller
     public class author
     {
         public string id = "1";
-        public string name = "Softline";
+        public string name { get; set; }
         public string image = "";
     }
 

@@ -31,15 +31,14 @@ namespace Quizersteller
             MaterialSkin.Primary.Red200, MaterialSkin.Accent.Red100, MaterialSkin.TextShade.WHITE);
 
         }
-
-        FrageKlasse Quiz = new FrageKlasse();
-
-
+        //hier wird das QUiz instanziiert
+        public FrageKlasse Quiz = new FrageKlasse();
 
         //der Fragezähler hält fest, ob die vor und zurück button geklickt wurden, muss irgendwo anders stehen
         public int Fragezähler = 0;
         //ein String der das Quiz in ordentlicher Ausgabeform enthalten soll
         public string OA = "";
+
 
        
         
@@ -144,6 +143,7 @@ namespace Quizersteller
                 {
                     Quiz.test.Add(Frageblock1);
                     //zeigt die oderntliche Vorschau
+                    materialButton2.Enabled = true;
                     materialButton2.PerformClick();
                     //leert die Forlage
                     materialButton4.PerformClick();
@@ -153,7 +153,7 @@ namespace Quizersteller
             }
 
         }
-
+        //hier entsteht die ordentliche Vorschau
         private void materialButton2_Click(object sender, EventArgs e)
         {
             //die Textbox wird geleert damit keine Dopplungen entstehen oder ähnliche blöde Sachen
@@ -165,26 +165,21 @@ namespace Quizersteller
 
                 int i = frageblock2.choices.Count;
                 //die choicelabel objekte müssen instanziiert werden
-                Question question2 = frageblock2.question.ElementAt(0); txtausgabe.Text += "\n" + question2.text;
-                Choicelabel choicelabelA2 = frageblock2.choices.ElementAt(0); txtausgabe.Text += "\n" + choicelabelA2.text;
-                Choicelabel choicelabelB2 = frageblock2.choices.ElementAt(1); txtausgabe.Text += "\n" + choicelabelB2.text;
-                Choicelabel choicelabelC2 = frageblock2.choices.ElementAt(2); txtausgabe.Text += "\n" + choicelabelC2.text;
-                Choicelabel choicelabelD2 = frageblock2.choices.ElementAt(3); txtausgabe.Text += "\n" + choicelabelD2.text;
-                if (i > 4) { Choicelabel choicelabelE2 = frageblock2.choices.ElementAt(4); txtausgabe.Text += "\n" + choicelabelE2.text; }
-                if (i > 5) { Choicelabel choicelabelF2 = frageblock2.choices.ElementAt(5); txtausgabe.Text += "\n" + choicelabelF2.text; }
-                if (i > 6) { Choicelabel choicelabelG2 = frageblock2.choices.ElementAt(6); txtausgabe.Text += "\n" + choicelabelG2.text; }
+                Question question2 = frageblock2.question.ElementAt(0); txtausgabe.Text += "\n" + "Frage: " + question2.text  +"\n";
+                Choicelabel choicelabelA2 = frageblock2.choices.ElementAt(0); txtausgabe.Text += "\n" + "Antwort A: " + choicelabelA2.text; if (frageblock2.answer.ElementAt(0) == true) { txtausgabe.Text += "; " + "ist korrekt"; }
+                Choicelabel choicelabelB2 = frageblock2.choices.ElementAt(1); txtausgabe.Text += "\n" + "Antwort B: " + choicelabelB2.text; if (frageblock2.answer.ElementAt(1) == true) { txtausgabe.Text += "; " + "ist korrekt"; }
+                Choicelabel choicelabelC2 = frageblock2.choices.ElementAt(2); txtausgabe.Text += "\n" + "Antwort C: " + choicelabelC2.text; if (frageblock2.answer.ElementAt(2) == true) { txtausgabe.Text += "; " + "ist korrekt"; }
+                Choicelabel choicelabelD2 = frageblock2.choices.ElementAt(3); txtausgabe.Text += "\n" + "Antwort D: " + choicelabelD2.text; if (frageblock2.answer.ElementAt(3) == true) { txtausgabe.Text += "; " + "ist korrekt"; }
+                if (i > 4) { Choicelabel choicelabelE2 = frageblock2.choices.ElementAt(4); txtausgabe.Text += "\n" + "Antwort E: " + choicelabelE2.text; } if (i > 4) { if (frageblock2.answer.ElementAt(4) == true) { txtausgabe.Text += "; " + "ist korrekt"; } }
+                if (i > 5) { Choicelabel choicelabelF2 = frageblock2.choices.ElementAt(5); txtausgabe.Text += "\n" + "Antwort F: " + choicelabelF2.text; } if (i > 5) { if (frageblock2.answer.ElementAt(5) == true) { txtausgabe.Text += "; " + "ist korrekt"; } }
+                if (i > 6) { Choicelabel choicelabelG2 = frageblock2.choices.ElementAt(6); txtausgabe.Text += "\n" + "Antwort G: " + choicelabelG2.text; } if (i > 6) { if (frageblock2.answer.ElementAt(6) == true) { txtausgabe.Text += "; " + "ist korrekt"; } }
                 //die Textboxen werden wiederhergestellt
                 // if formulierungen, da nicht alle fragen 7 antworten haben
-
-                // ob die Antworten richtig oder falsch waren wird als Textzeile geschrieben
-                if (frageblock2.answer.ElementAt(0) == true) { txtausgabe.Text += "\n" + true + ", "; } else { txtausgabe.Text += "\n" + false + ", "; }
-                if (frageblock2.answer.ElementAt(1) == true) { txtausgabe.Text += true + ", "; } else { txtausgabe.Text += false + ", "; }
-                if (frageblock2.answer.ElementAt(2) == true) { txtausgabe.Text += true + ", "; } else { txtausgabe.Text += false + ", "; }
-                if (frageblock2.answer.ElementAt(3) == true) { txtausgabe.Text += true + ", "; } else { txtausgabe.Text += false + ", "; }
-                if (i > 4) { if (frageblock2.answer.ElementAt(4) == true) { txtausgabe.Text += true + ", "; } else { txtausgabe.Text += false + ", "; } }
-                if (i > 5) { if (frageblock2.answer.ElementAt(5) == true) { txtausgabe.Text += true + ", "; } else { txtausgabe.Text += false + ", "; } }
-                if (i > 6) { if (frageblock2.answer.ElementAt(6) == true) { txtausgabe.Text += true + ", "; } else { txtausgabe.Text += false + ", "; } }
                 txtausgabe.Text += "\n" + "\n";
+                //deaktiviert sich selbst
+                materialButton2.Enabled = false;
+                //aktiviert JSON Vorschau, dort wird auch formatierte VOrschaue wieder aktiviert. Es ist ein sehr umständlicher Switch
+                materialButton5.Enabled = true;
             }
         }
 
@@ -203,6 +198,7 @@ namespace Quizersteller
                 Quiz.test.AddRange(Q.test);
 
                 //zeigt eine ordentliche Vorschau
+                materialButton2.Enabled = true;
                 materialButton2.PerformClick();
                 //aktiviert die Möglichkeit zu speichern und zu bearbeiten
                 materialButton6.Enabled = true; materialButton8.Enabled = true;
@@ -238,6 +234,10 @@ namespace Quizersteller
             string JSON = JsonConvert.SerializeObject(Quiz, Formatting.Indented);
 
             txtausgabe.Text = JSON;
+            //aktiviert die Möglichkeit für formatierte Vorschaue
+            materialButton2.Enabled = true;
+            //deaktiert sich selbst, wird auf formatierter vorschau wieder aktiviert
+            materialButton5.Enabled = false;
 
         }
         //speichert den Txtasugabe Text als ein neues File
@@ -265,7 +265,10 @@ namespace Quizersteller
         //der nach Links button
         private void materialButton7_Click(object sender, EventArgs e)
         {
+            //verschiebt die Stelle zum Bearbeiten mittels einer globalen Variable
             Fragezähler--;
+            //notwendig, damit die an aus Funktion der Buttons weiter funktioniert. So funktioniert der Bearbeitenmodus Button für bearbeiten an und aus
+            materialButton10.Enabled = false;
             //bearbeitungsknopf, sorgt dafür, dass die Textfelder ausgefüllt werden
             materialButton8.PerformClick();
         }
@@ -273,8 +276,8 @@ namespace Quizersteller
         //soll die Fragen, Choices und checkboxen zurück in die Vorlage laden um sie bearbeiten zu können und dann wieder zurück
         private void materialButton8_Click(object sender, EventArgs e)
         {
-            //eine Vorsichtsmaßnahme. Falls jemand mit den Buttons rumspielt bevor ein Quiz da ist
-            if (Quiz.test.Count > 0)
+            //eine Vorsichtsmaßnahme. Falls jemand mit den Buttons rumspielt bevor ein Quiz da ist; die zweite Bedingung sorgt dafür, dass man die Bearbeitung auch vorzeitig stoppen kann
+            if (Quiz.test.Count > 0 && materialButton10.Enabled == false )
             {
                 //stellt die Farbe des Buttons um, ist nur eine spielerei
                 if (materialButton8.UseAccentColor == false) { materialButton1.UseAccentColor = true; }
@@ -282,8 +285,8 @@ namespace Quizersteller
                 materialButton1.Enabled = false;
                 //aktiviert die Buttons um ziwschen den Positionen zu switchen
                 materialButton7.Enabled = true; materialButton9.Enabled = true;
-                //aktiviert den Button Änderung bestätigen
-                materialButton10.Enabled = true;
+                //aktiviert den Button Änderung bestätigen und den Frage löschen Button
+                materialButton10.Enabled = true; materialButton11.Enabled = true;
                 //die Stellle in der Testliste wird bestimmt, so dass sie nicht größer als die Liste und nicht kleiner 0 ist
                 int stelle;
                 stelle = Quiz.test.Count + Fragezähler - 1;
@@ -320,6 +323,23 @@ namespace Quizersteller
                 if (i > 5 && frageblock2.answer.ElementAt(5) == true) { materialCheckbox6.Checked = true; } else { materialCheckbox6.Checked = false; }
                 if (i > 6 && frageblock2.answer.ElementAt(6) == true) { materialCheckbox7.Checked = true; } else { materialCheckbox7.Checked = false; }
             }
+            //hier wird der Bearbeitungsmodus beendet
+            else
+            {
+                //zeigt die oderntliche Vorschau
+                materialButton2.Enabled = true;
+                materialButton2.PerformClick();
+                //leert die Forlage
+                materialButton4.PerformClick();
+                //aktiviert die Frage hinzufügen Möglichkeit wieder
+                materialButton1.Enabled = true;
+                //deaktiviert den Bearbeiten bestätigen Button wieder
+                materialButton10.Enabled = false;
+                //disabled die Buttons zum rum switchen wieder
+                materialButton7.Enabled = false; materialButton9.Enabled = false;
+                // deaktiviert den frage löschen Knopf wieder
+                materialButton11.Enabled = false;
+            }
 
 
         }
@@ -327,17 +347,18 @@ namespace Quizersteller
         //der eins nach Rechts Button
         private void materialButton9_Click(object sender, EventArgs e)
         {
+            //notwendig, damit die an aus Funktion der Buttons weiter funktioniert. So funktioniert der Bearbeitenmodus Button für bearbeiten an und aus
+            materialButton10.Enabled = false;
+            //verschiebt die Stelle mittels einer globalen Variable
             Fragezähler++;
             //bearbeitungsknopf, sorgt dafür, dass die Textfelder ausgefüllt werden
             materialButton8.PerformClick();
         }
-
+        //Änderung bestätigen
         private void materialButton10_Click(object sender, EventArgs e)
         {
             //ändert die Farbe des Bearbeitungsbuttons, ist eine Spielerei
             materialButton1.UseAccentColor = false; 
-            //disabled die Buttons zum rum switchen wieder
-            materialButton7.Enabled = false; materialButton9.Enabled = false;
             //die Stellle in der Testliste wird bestimmt, so dass sie nicht größer als die Liste und nicht kleiner 0 ist
             int stelle;
             stelle = Quiz.test.Count + Fragezähler - 1;
@@ -410,16 +431,61 @@ namespace Quizersteller
                     Quiz.test.Remove(Quiz.test.ElementAt(stelle));
                     Quiz.test.Insert(stelle, Frageblock1);
                     //zeigt die oderntliche Vorschau
+                    materialButton2.Enabled = true;
                     materialButton2.PerformClick();
-                    //leert die Forlage
-                    materialButton4.PerformClick();
-                    //aktiviert die Frage hinzufügen Möglichkeit wieder
-                    materialButton1.Enabled = true;
                 }
             }
         }
 
         private void txtspeicher_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Programm_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialButton11_Click(object sender, EventArgs e)
+        {
+            //die Stellle in der Testliste wird bestimmt, so dass sie nicht größer als die Liste und nicht kleiner 0 ist
+            int stelle;
+            stelle = Quiz.test.Count + Fragezähler - 1;
+            //verhindert stellen größer als die Liste
+            if (stelle >= Quiz.test.Count) { stelle = Quiz.test.Count - 1; Fragezähler = 0; }
+            //verhindert stellen kleiner als die 0 in der Liste
+            if (stelle <= 0) { stelle = 0; Fragezähler = -Quiz.test.Count + 1; }
+
+
+            //hier wird die änderung übernommen
+            Quiz.test.Remove(Quiz.test.ElementAt(stelle));
+            //zeigt die oderntliche Vorschau
+            materialButton2.Enabled = true;
+            materialButton2.PerformClick();
+            //leert die Forlage
+            materialButton4.PerformClick();
+        }
+
+        private void materialTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialButton12_Click(object sender, EventArgs e)
+        {
+            if (materialTextBox1.Text != "") { Quiz.author.name = materialTextBox1.Text; }
+            Quiz.pass = (int)numericUpDown1.Value;
+            Quiz.time = (int)numericUpDown2.Value;
+        }
+
+        private void materialTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
 
         }

@@ -31,8 +31,18 @@ namespace Quizersteller
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.materialTextBox1 = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialButton12 = new MaterialSkin.Controls.MaterialButton();
+            this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.Programm = new System.Windows.Forms.TabPage();
+            this.materialButton11 = new MaterialSkin.Controls.MaterialButton();
             this.txtausgabe = new System.Windows.Forms.RichTextBox();
             this.txtspeicher = new System.Windows.Forms.RichTextBox();
             this.txt7 = new System.Windows.Forms.RichTextBox();
@@ -43,15 +53,6 @@ namespace Quizersteller
             this.txt2 = new System.Windows.Forms.RichTextBox();
             this.txt1 = new System.Windows.Forms.RichTextBox();
             this.txtfrage = new System.Windows.Forms.RichTextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.materialCheckbox7 = new MaterialSkin.Controls.MaterialCheckbox();
-            this.materialCheckbox6 = new MaterialSkin.Controls.MaterialCheckbox();
-            this.materialCheckbox5 = new MaterialSkin.Controls.MaterialCheckbox();
-            this.materialCheckbox4 = new MaterialSkin.Controls.MaterialCheckbox();
-            this.materialCheckbox3 = new MaterialSkin.Controls.MaterialCheckbox();
-            this.materialCheckbox2 = new MaterialSkin.Controls.MaterialCheckbox();
-            this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialButton10 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton9 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton8 = new MaterialSkin.Controls.MaterialButton();
@@ -62,31 +63,157 @@ namespace Quizersteller
             this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.materialTabControl1.SuspendLayout();
+            this.materialCheckbox2 = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialCheckbox4 = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialCheckbox6 = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialCheckbox3 = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialCheckbox7 = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialCheckbox5 = new MaterialSkin.Controls.MaterialCheckbox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.Programm.SuspendLayout();
+            this.materialTabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // materialTabControl1
+            // imageList1
             // 
-            this.materialTabControl1.Controls.Add(this.Programm);
-            this.materialTabControl1.Depth = 0;
-            this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialTabControl1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.materialTabControl1.ImageList = this.imageList1;
-            this.materialTabControl1.Location = new System.Drawing.Point(3, 72);
-            this.materialTabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.materialTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialTabControl1.Multiline = true;
-            this.materialTabControl1.Name = "materialTabControl1";
-            this.materialTabControl1.Padding = new System.Drawing.Point(10, 5);
-            this.materialTabControl1.SelectedIndex = 0;
-            this.materialTabControl1.Size = new System.Drawing.Size(1658, 796);
-            this.materialTabControl1.TabIndex = 11;
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "3942291.png");
+            this.imageList1.Images.SetKeyName(1, "Download (1).png");
+            this.imageList1.Images.SetKeyName(2, "Download.png");
+            this.imageList1.Images.SetKeyName(3, "Softline_AG_Logo.svg.png");
+            this.imageList1.Images.SetKeyName(4, "softline Kreise.png");
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.Color.White;
+            this.tabPage1.Controls.Add(this.numericUpDown2);
+            this.tabPage1.Controls.Add(this.numericUpDown1);
+            this.tabPage1.Controls.Add(this.materialTextBox1);
+            this.tabPage1.Controls.Add(this.materialButton12);
+            this.tabPage1.Controls.Add(this.materialLabel4);
+            this.tabPage1.Controls.Add(this.materialLabel3);
+            this.tabPage1.Controls.Add(this.materialLabel2);
+            this.tabPage1.Controls.Add(this.materialLabel1);
+            this.tabPage1.ImageKey = "Download.png";
+            this.tabPage1.Location = new System.Drawing.Point(4, 43);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Size = new System.Drawing.Size(1650, 749);
+            this.tabPage1.TabIndex = 1;
+            this.tabPage1.Text = "Quiz Settings";
+            // 
+            // numericUpDown2
+            // 
+            this.numericUpDown2.Location = new System.Drawing.Point(466, 245);
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(180, 34);
+            this.numericUpDown2.TabIndex = 7;
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(466, 192);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(180, 34);
+            this.numericUpDown1.TabIndex = 6;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // materialTextBox1
+            // 
+            this.materialTextBox1.AnimateReadOnly = false;
+            this.materialTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox1.Depth = 0;
+            this.materialTextBox1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox1.LeadingIcon = null;
+            this.materialTextBox1.Location = new System.Drawing.Point(466, 122);
+            this.materialTextBox1.MaxLength = 50;
+            this.materialTextBox1.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox1.Multiline = false;
+            this.materialTextBox1.Name = "materialTextBox1";
+            this.materialTextBox1.Size = new System.Drawing.Size(343, 50);
+            this.materialTextBox1.TabIndex = 5;
+            this.materialTextBox1.Text = "";
+            this.materialTextBox1.TrailingIcon = null;
+            this.materialTextBox1.TextChanged += new System.EventHandler(this.materialTextBox1_TextChanged);
+            // 
+            // materialButton12
+            // 
+            this.materialButton12.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton12.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton12.Depth = 0;
+            this.materialButton12.HighEmphasis = true;
+            this.materialButton12.Icon = null;
+            this.materialButton12.Location = new System.Drawing.Point(554, 320);
+            this.materialButton12.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton12.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton12.Name = "materialButton12";
+            this.materialButton12.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton12.Size = new System.Drawing.Size(173, 36);
+            this.materialButton12.TabIndex = 4;
+            this.materialButton12.Text = "Settings Speichern";
+            this.materialButton12.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton12.UseAccentColor = false;
+            this.materialButton12.UseVisualStyleBackColor = true;
+            this.materialButton12.Click += new System.EventHandler(this.materialButton12_Click);
+            // 
+            // materialLabel4
+            // 
+            this.materialLabel4.AutoSize = true;
+            this.materialLabel4.Depth = 0;
+            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel4.Location = new System.Drawing.Point(332, 257);
+            this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel4.Name = "materialLabel4";
+            this.materialLabel4.Size = new System.Drawing.Size(111, 19);
+            this.materialLabel4.TabIndex = 3;
+            this.materialLabel4.Text = "Zeit in Minuten:";
+            // 
+            // materialLabel3
+            // 
+            this.materialLabel3.AutoSize = true;
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel3.Location = new System.Drawing.Point(255, 207);
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            this.materialLabel3.Size = new System.Drawing.Size(188, 19);
+            this.materialLabel3.TabIndex = 2;
+            this.materialLabel3.Text = "Bestanden ab \"X\" Prozent :";
+            // 
+            // materialLabel2
+            // 
+            this.materialLabel2.AutoSize = true;
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel2.Location = new System.Drawing.Point(400, 153);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(43, 19);
+            this.materialLabel2.TabIndex = 1;
+            this.materialLabel2.Text = "Autor:";
+            // 
+            // materialLabel1
+            // 
+            this.materialLabel1.AutoSize = true;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel1.Location = new System.Drawing.Point(329, 87);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(140, 19);
+            this.materialLabel1.TabIndex = 0;
+            this.materialLabel1.Text = "Settings des Quizes";
             // 
             // Programm
             // 
             this.Programm.BackColor = System.Drawing.Color.White;
+            this.Programm.Controls.Add(this.materialButton11);
             this.Programm.Controls.Add(this.txtausgabe);
             this.Programm.Controls.Add(this.txtspeicher);
             this.Programm.Controls.Add(this.txt7);
@@ -97,15 +224,6 @@ namespace Quizersteller
             this.Programm.Controls.Add(this.txt2);
             this.Programm.Controls.Add(this.txt1);
             this.Programm.Controls.Add(this.txtfrage);
-            this.Programm.Controls.Add(this.label2);
-            this.Programm.Controls.Add(this.label1);
-            this.Programm.Controls.Add(this.materialCheckbox7);
-            this.Programm.Controls.Add(this.materialCheckbox6);
-            this.Programm.Controls.Add(this.materialCheckbox5);
-            this.Programm.Controls.Add(this.materialCheckbox4);
-            this.Programm.Controls.Add(this.materialCheckbox3);
-            this.Programm.Controls.Add(this.materialCheckbox2);
-            this.Programm.Controls.Add(this.materialCheckbox1);
             this.Programm.Controls.Add(this.materialButton10);
             this.Programm.Controls.Add(this.materialButton9);
             this.Programm.Controls.Add(this.materialButton8);
@@ -116,6 +234,15 @@ namespace Quizersteller
             this.Programm.Controls.Add(this.materialButton3);
             this.Programm.Controls.Add(this.materialButton2);
             this.Programm.Controls.Add(this.materialButton1);
+            this.Programm.Controls.Add(this.materialCheckbox2);
+            this.Programm.Controls.Add(this.materialCheckbox4);
+            this.Programm.Controls.Add(this.materialCheckbox6);
+            this.Programm.Controls.Add(this.materialCheckbox3);
+            this.Programm.Controls.Add(this.materialCheckbox7);
+            this.Programm.Controls.Add(this.materialCheckbox5);
+            this.Programm.Controls.Add(this.label2);
+            this.Programm.Controls.Add(this.label1);
+            this.Programm.Controls.Add(this.materialCheckbox1);
             this.Programm.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Programm.ImageKey = "Softline_AG_Logo.svg.png";
             this.Programm.Location = new System.Drawing.Point(4, 43);
@@ -125,6 +252,28 @@ namespace Quizersteller
             this.Programm.Size = new System.Drawing.Size(1650, 749);
             this.Programm.TabIndex = 0;
             this.Programm.Text = "Programm";
+            this.Programm.Click += new System.EventHandler(this.Programm_Click);
+            // 
+            // materialButton11
+            // 
+            this.materialButton11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton11.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton11.Depth = 0;
+            this.materialButton11.Enabled = false;
+            this.materialButton11.HighEmphasis = true;
+            this.materialButton11.Icon = null;
+            this.materialButton11.Location = new System.Drawing.Point(1306, 610);
+            this.materialButton11.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton11.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton11.Name = "materialButton11";
+            this.materialButton11.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton11.Size = new System.Drawing.Size(137, 36);
+            this.materialButton11.TabIndex = 40;
+            this.materialButton11.Text = "Frage löschen";
+            this.materialButton11.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton11.UseAccentColor = false;
+            this.materialButton11.UseVisualStyleBackColor = true;
+            this.materialButton11.Click += new System.EventHandler(this.materialButton11_Click);
             // 
             // txtausgabe
             // 
@@ -218,150 +367,6 @@ namespace Quizersteller
             this.txtfrage.TabIndex = 30;
             this.txtfrage.Text = "";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(135, 25);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 28);
-            this.label2.TabIndex = 29;
-            this.label2.Text = "Frage:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(135, 71);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(288, 28);
-            this.label1.TabIndex = 28;
-            this.label1.Text = "korrekte Antwort(en) ankreuzen";
-            // 
-            // materialCheckbox7
-            // 
-            this.materialCheckbox7.AutoSize = true;
-            this.materialCheckbox7.Depth = 0;
-            this.materialCheckbox7.Location = new System.Drawing.Point(133, 440);
-            this.materialCheckbox7.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckbox7.MaximumSize = new System.Drawing.Size(400, 300);
-            this.materialCheckbox7.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckbox7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckbox7.Name = "materialCheckbox7";
-            this.materialCheckbox7.ReadOnly = false;
-            this.materialCheckbox7.Ripple = true;
-            this.materialCheckbox7.Size = new System.Drawing.Size(113, 37);
-            this.materialCheckbox7.TabIndex = 27;
-            this.materialCheckbox7.Text = "Antwort G: ";
-            this.materialCheckbox7.UseVisualStyleBackColor = true;
-            this.materialCheckbox7.CheckedChanged += new System.EventHandler(this.materialCheckbox7_CheckedChanged);
-            // 
-            // materialCheckbox6
-            // 
-            this.materialCheckbox6.AutoSize = true;
-            this.materialCheckbox6.Depth = 0;
-            this.materialCheckbox6.Location = new System.Drawing.Point(135, 385);
-            this.materialCheckbox6.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckbox6.MaximumSize = new System.Drawing.Size(400, 300);
-            this.materialCheckbox6.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckbox6.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckbox6.Name = "materialCheckbox6";
-            this.materialCheckbox6.ReadOnly = false;
-            this.materialCheckbox6.Ripple = true;
-            this.materialCheckbox6.Size = new System.Drawing.Size(111, 37);
-            this.materialCheckbox6.TabIndex = 26;
-            this.materialCheckbox6.Text = "Antwort F: ";
-            this.materialCheckbox6.UseVisualStyleBackColor = true;
-            this.materialCheckbox6.CheckedChanged += new System.EventHandler(this.materialCheckbox6_CheckedChanged);
-            // 
-            // materialCheckbox5
-            // 
-            this.materialCheckbox5.AutoSize = true;
-            this.materialCheckbox5.Depth = 0;
-            this.materialCheckbox5.Location = new System.Drawing.Point(136, 330);
-            this.materialCheckbox5.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckbox5.MaximumSize = new System.Drawing.Size(400, 300);
-            this.materialCheckbox5.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckbox5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckbox5.Name = "materialCheckbox5";
-            this.materialCheckbox5.ReadOnly = false;
-            this.materialCheckbox5.Ripple = true;
-            this.materialCheckbox5.Size = new System.Drawing.Size(111, 37);
-            this.materialCheckbox5.TabIndex = 25;
-            this.materialCheckbox5.Text = "Antwort E: ";
-            this.materialCheckbox5.UseVisualStyleBackColor = true;
-            this.materialCheckbox5.CheckedChanged += new System.EventHandler(this.materialCheckbox5_CheckedChanged);
-            // 
-            // materialCheckbox4
-            // 
-            this.materialCheckbox4.AutoSize = true;
-            this.materialCheckbox4.Depth = 0;
-            this.materialCheckbox4.Location = new System.Drawing.Point(133, 275);
-            this.materialCheckbox4.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckbox4.MaximumSize = new System.Drawing.Size(400, 300);
-            this.materialCheckbox4.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckbox4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckbox4.Name = "materialCheckbox4";
-            this.materialCheckbox4.ReadOnly = false;
-            this.materialCheckbox4.Ripple = true;
-            this.materialCheckbox4.Size = new System.Drawing.Size(113, 37);
-            this.materialCheckbox4.TabIndex = 24;
-            this.materialCheckbox4.Text = "Antwort D: ";
-            this.materialCheckbox4.UseVisualStyleBackColor = true;
-            this.materialCheckbox4.CheckedChanged += new System.EventHandler(this.materialCheckbox4_CheckedChanged);
-            // 
-            // materialCheckbox3
-            // 
-            this.materialCheckbox3.AutoSize = true;
-            this.materialCheckbox3.Depth = 0;
-            this.materialCheckbox3.Location = new System.Drawing.Point(134, 220);
-            this.materialCheckbox3.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckbox3.MaximumSize = new System.Drawing.Size(400, 300);
-            this.materialCheckbox3.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckbox3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckbox3.Name = "materialCheckbox3";
-            this.materialCheckbox3.ReadOnly = false;
-            this.materialCheckbox3.Ripple = true;
-            this.materialCheckbox3.Size = new System.Drawing.Size(112, 37);
-            this.materialCheckbox3.TabIndex = 23;
-            this.materialCheckbox3.Text = "Antwort C: ";
-            this.materialCheckbox3.UseVisualStyleBackColor = true;
-            this.materialCheckbox3.CheckedChanged += new System.EventHandler(this.materialCheckbox3_CheckedChanged);
-            // 
-            // materialCheckbox2
-            // 
-            this.materialCheckbox2.AutoSize = true;
-            this.materialCheckbox2.Depth = 0;
-            this.materialCheckbox2.Location = new System.Drawing.Point(135, 165);
-            this.materialCheckbox2.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckbox2.MaximumSize = new System.Drawing.Size(400, 300);
-            this.materialCheckbox2.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckbox2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckbox2.Name = "materialCheckbox2";
-            this.materialCheckbox2.ReadOnly = false;
-            this.materialCheckbox2.Ripple = true;
-            this.materialCheckbox2.Size = new System.Drawing.Size(112, 37);
-            this.materialCheckbox2.TabIndex = 22;
-            this.materialCheckbox2.Text = "Antwort B: ";
-            this.materialCheckbox2.UseVisualStyleBackColor = true;
-            this.materialCheckbox2.CheckedChanged += new System.EventHandler(this.materialCheckbox2_CheckedChanged);
-            // 
-            // materialCheckbox1
-            // 
-            this.materialCheckbox1.AutoSize = true;
-            this.materialCheckbox1.Depth = 0;
-            this.materialCheckbox1.Location = new System.Drawing.Point(135, 110);
-            this.materialCheckbox1.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckbox1.MaximumSize = new System.Drawing.Size(400, 300);
-            this.materialCheckbox1.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckbox1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckbox1.Name = "materialCheckbox1";
-            this.materialCheckbox1.ReadOnly = false;
-            this.materialCheckbox1.Ripple = true;
-            this.materialCheckbox1.Size = new System.Drawing.Size(112, 37);
-            this.materialCheckbox1.TabIndex = 21;
-            this.materialCheckbox1.Text = "Antwort A: ";
-            this.materialCheckbox1.UseVisualStyleBackColor = true;
-            this.materialCheckbox1.CheckedChanged += new System.EventHandler(this.materialCheckbox1_CheckedChanged);
-            // 
             // materialButton10
             // 
             this.materialButton10.AutoSize = false;
@@ -425,7 +430,7 @@ namespace Quizersteller
             this.materialButton8.NoAccentTextColor = System.Drawing.Color.Empty;
             this.materialButton8.Size = new System.Drawing.Size(220, 67);
             this.materialButton8.TabIndex = 18;
-            this.materialButton8.Text = "Bearbeiten Modus";
+            this.materialButton8.Text = "bearbeiten/ \r\nbearbeiten beenden";
             this.materialButton8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton8.UseAccentColor = false;
             this.materialButton8.UseVisualStyleBackColor = true;
@@ -483,6 +488,7 @@ namespace Quizersteller
             this.materialButton5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialButton5.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             this.materialButton5.Depth = 0;
+            this.materialButton5.Enabled = false;
             this.materialButton5.HighEmphasis = true;
             this.materialButton5.Icon = null;
             this.materialButton5.Location = new System.Drawing.Point(277, 610);
@@ -550,6 +556,7 @@ namespace Quizersteller
             this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             this.materialButton2.Depth = 0;
+            this.materialButton2.Enabled = false;
             this.materialButton2.HighEmphasis = true;
             this.materialButton2.Icon = null;
             this.materialButton2.Location = new System.Drawing.Point(277, 513);
@@ -588,15 +595,167 @@ namespace Quizersteller
             this.materialButton1.UseVisualStyleBackColor = true;
             this.materialButton1.Click += new System.EventHandler(this.materialButton1_Click);
             // 
-            // imageList1
+            // materialCheckbox2
             // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "3942291.png");
-            this.imageList1.Images.SetKeyName(1, "Download (1).png");
-            this.imageList1.Images.SetKeyName(2, "Download.png");
-            this.imageList1.Images.SetKeyName(3, "Softline_AG_Logo.svg.png");
+            this.materialCheckbox2.AutoSize = true;
+            this.materialCheckbox2.Depth = 0;
+            this.materialCheckbox2.Location = new System.Drawing.Point(135, 165);
+            this.materialCheckbox2.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckbox2.MaximumSize = new System.Drawing.Size(400, 300);
+            this.materialCheckbox2.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckbox2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckbox2.Name = "materialCheckbox2";
+            this.materialCheckbox2.ReadOnly = false;
+            this.materialCheckbox2.Ripple = true;
+            this.materialCheckbox2.Size = new System.Drawing.Size(112, 37);
+            this.materialCheckbox2.TabIndex = 22;
+            this.materialCheckbox2.Text = "Antwort B: ";
+            this.materialCheckbox2.UseVisualStyleBackColor = true;
+            this.materialCheckbox2.CheckedChanged += new System.EventHandler(this.materialCheckbox2_CheckedChanged);
+            // 
+            // materialCheckbox4
+            // 
+            this.materialCheckbox4.AutoSize = true;
+            this.materialCheckbox4.Depth = 0;
+            this.materialCheckbox4.Location = new System.Drawing.Point(133, 275);
+            this.materialCheckbox4.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckbox4.MaximumSize = new System.Drawing.Size(400, 300);
+            this.materialCheckbox4.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckbox4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckbox4.Name = "materialCheckbox4";
+            this.materialCheckbox4.ReadOnly = false;
+            this.materialCheckbox4.Ripple = true;
+            this.materialCheckbox4.Size = new System.Drawing.Size(113, 37);
+            this.materialCheckbox4.TabIndex = 24;
+            this.materialCheckbox4.Text = "Antwort D: ";
+            this.materialCheckbox4.UseVisualStyleBackColor = true;
+            this.materialCheckbox4.CheckedChanged += new System.EventHandler(this.materialCheckbox4_CheckedChanged);
+            // 
+            // materialCheckbox6
+            // 
+            this.materialCheckbox6.AutoSize = true;
+            this.materialCheckbox6.Depth = 0;
+            this.materialCheckbox6.Location = new System.Drawing.Point(135, 385);
+            this.materialCheckbox6.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckbox6.MaximumSize = new System.Drawing.Size(400, 300);
+            this.materialCheckbox6.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckbox6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckbox6.Name = "materialCheckbox6";
+            this.materialCheckbox6.ReadOnly = false;
+            this.materialCheckbox6.Ripple = true;
+            this.materialCheckbox6.Size = new System.Drawing.Size(111, 37);
+            this.materialCheckbox6.TabIndex = 26;
+            this.materialCheckbox6.Text = "Antwort F: ";
+            this.materialCheckbox6.UseVisualStyleBackColor = true;
+            this.materialCheckbox6.CheckedChanged += new System.EventHandler(this.materialCheckbox6_CheckedChanged);
+            // 
+            // materialCheckbox3
+            // 
+            this.materialCheckbox3.AutoSize = true;
+            this.materialCheckbox3.Depth = 0;
+            this.materialCheckbox3.Location = new System.Drawing.Point(134, 220);
+            this.materialCheckbox3.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckbox3.MaximumSize = new System.Drawing.Size(400, 300);
+            this.materialCheckbox3.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckbox3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckbox3.Name = "materialCheckbox3";
+            this.materialCheckbox3.ReadOnly = false;
+            this.materialCheckbox3.Ripple = true;
+            this.materialCheckbox3.Size = new System.Drawing.Size(112, 37);
+            this.materialCheckbox3.TabIndex = 23;
+            this.materialCheckbox3.Text = "Antwort C: ";
+            this.materialCheckbox3.UseVisualStyleBackColor = true;
+            this.materialCheckbox3.CheckedChanged += new System.EventHandler(this.materialCheckbox3_CheckedChanged);
+            // 
+            // materialCheckbox7
+            // 
+            this.materialCheckbox7.AutoSize = true;
+            this.materialCheckbox7.Depth = 0;
+            this.materialCheckbox7.Location = new System.Drawing.Point(133, 440);
+            this.materialCheckbox7.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckbox7.MaximumSize = new System.Drawing.Size(400, 300);
+            this.materialCheckbox7.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckbox7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckbox7.Name = "materialCheckbox7";
+            this.materialCheckbox7.ReadOnly = false;
+            this.materialCheckbox7.Ripple = true;
+            this.materialCheckbox7.Size = new System.Drawing.Size(113, 37);
+            this.materialCheckbox7.TabIndex = 27;
+            this.materialCheckbox7.Text = "Antwort G: ";
+            this.materialCheckbox7.UseVisualStyleBackColor = true;
+            this.materialCheckbox7.CheckedChanged += new System.EventHandler(this.materialCheckbox7_CheckedChanged);
+            // 
+            // materialCheckbox5
+            // 
+            this.materialCheckbox5.AutoSize = true;
+            this.materialCheckbox5.Depth = 0;
+            this.materialCheckbox5.Location = new System.Drawing.Point(136, 330);
+            this.materialCheckbox5.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckbox5.MaximumSize = new System.Drawing.Size(400, 300);
+            this.materialCheckbox5.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckbox5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckbox5.Name = "materialCheckbox5";
+            this.materialCheckbox5.ReadOnly = false;
+            this.materialCheckbox5.Ripple = true;
+            this.materialCheckbox5.Size = new System.Drawing.Size(111, 37);
+            this.materialCheckbox5.TabIndex = 25;
+            this.materialCheckbox5.Text = "Antwort E: ";
+            this.materialCheckbox5.UseVisualStyleBackColor = true;
+            this.materialCheckbox5.CheckedChanged += new System.EventHandler(this.materialCheckbox5_CheckedChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(135, 25);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(65, 28);
+            this.label2.TabIndex = 29;
+            this.label2.Text = "Frage:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(135, 71);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(288, 28);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "korrekte Antwort(en) ankreuzen";
+            // 
+            // materialCheckbox1
+            // 
+            this.materialCheckbox1.AutoSize = true;
+            this.materialCheckbox1.Depth = 0;
+            this.materialCheckbox1.Location = new System.Drawing.Point(135, 110);
+            this.materialCheckbox1.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckbox1.MaximumSize = new System.Drawing.Size(400, 300);
+            this.materialCheckbox1.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckbox1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckbox1.Name = "materialCheckbox1";
+            this.materialCheckbox1.ReadOnly = false;
+            this.materialCheckbox1.Ripple = true;
+            this.materialCheckbox1.Size = new System.Drawing.Size(112, 37);
+            this.materialCheckbox1.TabIndex = 21;
+            this.materialCheckbox1.Text = "Antwort A: ";
+            this.materialCheckbox1.UseVisualStyleBackColor = true;
+            this.materialCheckbox1.CheckedChanged += new System.EventHandler(this.materialCheckbox1_CheckedChanged);
+            // 
+            // materialTabControl1
+            // 
+            this.materialTabControl1.Controls.Add(this.Programm);
+            this.materialTabControl1.Controls.Add(this.tabPage1);
+            this.materialTabControl1.Depth = 0;
+            this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.materialTabControl1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.materialTabControl1.ImageList = this.imageList1;
+            this.materialTabControl1.Location = new System.Drawing.Point(3, 72);
+            this.materialTabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.materialTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialTabControl1.Multiline = true;
+            this.materialTabControl1.Name = "materialTabControl1";
+            this.materialTabControl1.Padding = new System.Drawing.Point(10, 5);
+            this.materialTabControl1.SelectedIndex = 0;
+            this.materialTabControl1.Size = new System.Drawing.Size(1658, 796);
+            this.materialTabControl1.TabIndex = 11;
             // 
             // Form1
             // 
@@ -615,35 +774,24 @@ namespace Quizersteller
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quizersteller";
-            this.materialTabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.Programm.ResumeLayout(false);
             this.Programm.PerformLayout();
+            this.materialTabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private MaterialSkin.Controls.MaterialTabControl materialTabControl1;
-        private System.Windows.Forms.TabPage Programm;
-        private MaterialSkin.Controls.MaterialButton materialButton8;
-        private MaterialSkin.Controls.MaterialButton materialButton7;
-        private MaterialSkin.Controls.MaterialButton materialButton6;
-        private MaterialSkin.Controls.MaterialButton materialButton5;
-        private MaterialSkin.Controls.MaterialButton materialButton4;
-        private MaterialSkin.Controls.MaterialButton materialButton3;
-        private MaterialSkin.Controls.MaterialButton materialButton2;
-        private MaterialSkin.Controls.MaterialButton materialButton1;
-        private MaterialSkin.Controls.MaterialButton materialButton10;
-        private MaterialSkin.Controls.MaterialButton materialButton9;
         private System.Windows.Forms.ImageList imageList1;
-        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox7;
-        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox6;
-        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox5;
-        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox4;
-        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox3;
-        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox2;
-        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage Programm;
+        private MaterialSkin.Controls.MaterialButton materialButton11;
+        private System.Windows.Forms.RichTextBox txtausgabe;
+        private System.Windows.Forms.RichTextBox txtspeicher;
         private System.Windows.Forms.RichTextBox txt7;
         private System.Windows.Forms.RichTextBox txt6;
         private System.Windows.Forms.RichTextBox txt5;
@@ -652,10 +800,34 @@ namespace Quizersteller
         private System.Windows.Forms.RichTextBox txt2;
         private System.Windows.Forms.RichTextBox txt1;
         private System.Windows.Forms.RichTextBox txtfrage;
+        private MaterialSkin.Controls.MaterialButton materialButton10;
+        private MaterialSkin.Controls.MaterialButton materialButton9;
+        private MaterialSkin.Controls.MaterialButton materialButton8;
+        private MaterialSkin.Controls.MaterialButton materialButton7;
+        private MaterialSkin.Controls.MaterialButton materialButton6;
+        private MaterialSkin.Controls.MaterialButton materialButton5;
+        private MaterialSkin.Controls.MaterialButton materialButton4;
+        private MaterialSkin.Controls.MaterialButton materialButton3;
+        private MaterialSkin.Controls.MaterialButton materialButton2;
+        private MaterialSkin.Controls.MaterialButton materialButton1;
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox2;
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox4;
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox6;
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox3;
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox7;
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RichTextBox txtspeicher;
-        private System.Windows.Forms.RichTextBox txtausgabe;
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox1;
+        private MaterialSkin.Controls.MaterialTabControl materialTabControl1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel4;
+        private MaterialSkin.Controls.MaterialLabel materialLabel3;
+        private MaterialSkin.Controls.MaterialLabel materialLabel2;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox1;
+        private MaterialSkin.Controls.MaterialButton materialButton12;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
     }
 }
 

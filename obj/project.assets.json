@@ -83,11 +83,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\Quizersteller-mit-MaterialSkin\\Quizersteller\\Quizersteller.csproj",
+      "projectUniqueName": "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\QuizerstellerFinale-hoffentlich-\\Quizersteller.csproj",
       "projectName": "Quizersteller",
-      "projectPath": "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\Quizersteller-mit-MaterialSkin\\Quizersteller\\Quizersteller.csproj",
+      "projectPath": "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\QuizerstellerFinale-hoffentlich-\\Quizersteller.csproj",
       "packagesPath": "C:\\Users\\IVO.WOTKE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\Quizersteller-mit-MaterialSkin\\Quizersteller\\obj\\",
+      "outputPath": "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\QuizerstellerFinale-hoffentlich-\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\IVO.WOTKE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,13 +146,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem beim Lesen der Cachedatei \"C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\Quizersteller-mit-MaterialSkin\\Quizersteller\\obj\\project.nuget.cache\": Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

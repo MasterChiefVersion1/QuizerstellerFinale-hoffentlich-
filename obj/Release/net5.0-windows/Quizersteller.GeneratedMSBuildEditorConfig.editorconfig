@@ -7,8 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Quizersteller
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\Quizersteller-mit-MaterialSkin\Quizersteller\
-=======
-build_property.ProjectDir = C:\Users\jakob.riedel\Documents\GitHub\Quizersteller mit Material Skin\Quizersteller\
->>>>>>> 1b8670a6659a952d994fb422dfa7a5b149840dda
+build_property.ProjectDir = C:\Users\IVO.WOTKE\Desktop\Visual Studio\material skin\QuizerstellerFinale-hoffentlich-\

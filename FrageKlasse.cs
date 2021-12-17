@@ -13,8 +13,8 @@ namespace Quizersteller
         public string title = "Übungsexam";
         public string description = "";
         public string code = "000-000";
-        public int pass = 60;
-        public int time = 60;
+        public int pass { get; set; }
+        public int time { get; set; }
         public string image = "";
         public List<string> cover { get; }
 
@@ -27,6 +27,10 @@ namespace Quizersteller
             test = new List<Frageblock>();
             author = new author();
             cover = new List<string>();
+            //speichert schonmal Default Werte ein
+            pass = 60;
+            time = 60;
+            author.name = "softline";
         }
 
         //der Frageblock. Die Eigenschaften sind Listen, damit das ordentlich ins JSON formatiert wird

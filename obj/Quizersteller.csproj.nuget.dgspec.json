@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\Quizersteller-mit-MaterialSkin\\Quizersteller\\Quizersteller.csproj": {}
+    "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\QuizerstellerFinale-hoffentlich-\\Quizersteller.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\Quizersteller-mit-MaterialSkin\\Quizersteller\\Quizersteller.csproj": {
+    "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\QuizerstellerFinale-hoffentlich-\\Quizersteller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\Quizersteller-mit-MaterialSkin\\Quizersteller\\Quizersteller.csproj",
+        "projectUniqueName": "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\QuizerstellerFinale-hoffentlich-\\Quizersteller.csproj",
         "projectName": "Quizersteller",
-        "projectPath": "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\Quizersteller-mit-MaterialSkin\\Quizersteller\\Quizersteller.csproj",
+        "projectPath": "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\QuizerstellerFinale-hoffentlich-\\Quizersteller.csproj",
         "packagesPath": "C:\\Users\\IVO.WOTKE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\Quizersteller-mit-MaterialSkin\\Quizersteller\\obj\\",
+        "outputPath": "C:\\Users\\IVO.WOTKE\\Desktop\\Visual Studio\\material skin\\QuizerstellerFinale-hoffentlich-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\IVO.WOTKE\\AppData\\Roaming\\NuGet\\NuGet.Config",
